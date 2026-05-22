@@ -92,6 +92,22 @@ body {
     color: var(--accent-hover);
     letter-spacing: -0.02em;
     margin: 0;
+    flex: 1;
+}
+
+.player-link {
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.player-link:hover {
+    transform: scale(1.1);
 }
 
 /* Main Content */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#1a5c31">
+    <title>Bingo Player - Spotted on site</title>
+    <link rel="icon" type="image/x-icon" href="https://www.gotgreens.farm/favicon.ico">
+    <link rel="stylesheet" href="player-styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <a href="index.html" class="back-link">← Caller</a>
+            <h1>Your Bingo Board</h1>
+            <button class="btn-icon-only" id="newBoardBtn" title="New Board">🔄</button>
+        </header>
+
+        <main class="main-content">
+            <div id="bingoBoard" class="bingo-board"></div>
+        </main>
+
+        <footer class="app-footer">
+            <div class="stats-row">
+                <div class="stat">
+                    <span class="stat-label">Marked</span>
+                    <span class="stat-value" id="markedCount">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Remaining</span>
+                    <span class="stat-value" id="remainingCount">25</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bingo Modal -->
+    <div id="bingoModal" class="modal">
+        <div class="modal-content">
+            <div class="bingo-animation">
+                <div class="confetti"></div>
+                <h2>🎉 BINGO! 🎉</h2>
+                <p>You got 5 in a row!</p>
+                <button class="btn btn-primary" id="playAgainBtn">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="player.js"></script>
+</body>
+</html>
