@@ -82,11 +82,14 @@ class BingoCaller {
         this.calledItems = [];
         this.currentItem = null;
         this.isCollapsed = false;
+        this.facts = {};
 
         this.init();
     }
 
-    init() {
+    async init() {
+        // Load facts
+        await this.loadFacts();
         // Get DOM elements
         this.elements = {
             callNextBtn: document.getElementById('callNextBtn'),
@@ -100,7 +103,9 @@ class BingoCaller {
             remainingCount: document.getElementById('remainingCount'),
             calledItemsGrid: document.getElementById('calledItemsGrid'),
             toggleCalledBtn: document.getElementById('toggleCalledBtn'),
-            toggleIcon: document.getElementById('toggleIcon')
+            toggleIcon: document.getElementById('toggleIcon'),
+            factsPanel: document.getElementById('factsPanel'),
+            factsContent: document.getElementById('factsContent')
         };
 
         // Attach event listeners
@@ -124,6 +129,16 @@ class BingoCaller {
         });
     }
 
+    async loadFacts() {
+        try {
+            const response = await fetch('Outputs/field/facts.json');
+            this.facts = await response.json();
+        } catch (error) {
+            console.error('Failed to load facts:', error);
+            this.facts = {};
+        }
+    }
+
     callNextItem() {
         if (this.remainingItems.length === 0) {
             this.showCompletionMessage();
@@ -137,6 +152,7 @@ class BingoCaller {
 
         // Update display
         this.displayCurrentItem();
+        this.displayFacts();
         this.updateStats();
         this.updateCalledItemsDisplay();
 
@@ -162,6 +178,43 @@ class BingoCaller {
         setTimeout(() => {
             this.elements.currentItemCard.style.animation = 'slideIn 0.4s ease-out';
         }, 10);
+    }
+
+    displayFacts() {
+        if (!this.currentItem || !this.facts[this.currentItem.name]) {
+            this.elements.factsPanel.style.display = 'none';
+            return;
+        }
+
+        const itemFacts = this.facts[this.currentItem.name];
+        this.elements.factsPanel.style.display = 'flex';
+        
+        let factsHTML = '';
+        
+        // Display facts
+        if (itemFacts.facts && itemFacts.facts.length > 0) {
+            itemFacts.facts.forEach(fact => {
+                factsHTML += `
+                    <div class="fact-item">
+                        <div class="fact-group">${fact.factGroup}</div>
+                        <div class="fact-text">${fact.fact}</div>
+                    </div>
+                `;
+            });
+        }
+        
+        // Display dependency if exists
+        if (itemFacts.dependsOn) {
+            factsHTML += `
+                <div class="fact-item depends-on">
+                    <div class="depends-on-title">Depends On</div>
+                    <div class="depends-on-item">${itemFacts.dependsOn.item}</div>
+                    <div class="depends-on-reason">${itemFacts.dependsOn.reason}</div>
+                </div>
+            `;
+        }
+        
+        this.elements.factsContent.innerHTML = factsHTML || '<p class="no-facts">No facts available</p>';
     }
 
     updateStats() {
@@ -217,6 +270,7 @@ class BingoCaller {
             this.elements.currentItemCard.style.display = 'none';
             this.elements.calledItemsGrid.innerHTML = '';
             this.elements.callNextBtn.disabled = false;
+            this.elements.factsPanel.style.display = 'none';
 
             // Update stats
             this.updateStats();

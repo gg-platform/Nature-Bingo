@@ -21,6 +21,7 @@ A mobile-optimized web app for nature bingo with two modes: **Caller** for leadi
 - **Tap to Mark** - Circle items when called, tap again to unmark
 - **Auto Bingo Detection** - Checks rows, columns, and diagonals
 - **Celebration Animation** - Fun confetti effect on winning
+- **Board Persistence** - Your board and marks saved automatically (survives refresh!)
 - **New Board Generator** - Get a fresh board anytime
 - **No Session Required** - Fully standalone, no connection needed
 
