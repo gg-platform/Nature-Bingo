@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature Bingo Caller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#1a5c31">
+    <title>Spotted on site bingo caller</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,45 +15,44 @@
 <body>
     <div class="app-container">
         <header class="app-header">
-            <h1>🌿 Nature Bingo Caller</h1>
-            <div class="stats">
-                <span class="stat-item">
-                    <span class="stat-label">Called:</span>
-                    <span class="stat-value" id="calledCount">0</span>
-                </span>
-                <span class="stat-item">
-                    <span class="stat-label">Remaining:</span>
-                    <span class="stat-value" id="remainingCount">0</span>
-                </span>
-            </div>
+            <img src="https://static.wixstatic.com/media/5ada6d_6b1f0968ab684579b90bf8de4fce0a05~mv2.png/v1/crop/x_0,y_246,w_4961,h_3016/fill/w_204,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/New%20Logo%20White.png" alt="Logo" class="app-logo">
+            <h1>Spotted on site</h1>
         </header>
 
         <main class="main-content">
-            <div class="current-item-container" id="currentItemContainer">
-                <div class="welcome-message">
-                    <div class="icon">🎲</div>
-                    <h2>Ready to Start!</h2>
-                    <p>Press "Call Next Item" to begin</p>
+            <div class="controls-sidebar">
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Called</span>
+                        <span class="stat-value" id="calledCount">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Remaining</span>
+                        <span class="stat-value" id="remainingCount">0</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="current-item-card" id="currentItemCard" style="display: none;">
-                <div class="item-number" id="itemNumber">#1</div>
-                <div class="item-image-container">
-                    <img id="itemImage" src="" alt="" class="item-image">
-                </div>
-                <div class="item-name" id="itemName"></div>
-            </div>
-
-            <div class="controls">
                 <button class="btn btn-primary" id="callNextBtn">
                     <span class="btn-icon">📢</span>
-                    Call Next Item
+                    <span>Call Next</span>
                 </button>
-                <button class="btn btn-secondary" id="resetBtn">
-                    <span class="btn-icon">🔄</span>
-                    Reset
-                </button>
+            </div>
+
+            <div class="content-main">
+                <div class="current-item-container" id="currentItemContainer">
+                    <div class="welcome-message">
+                        <div class="icon">🎲</div>
+                        <h2>Ready to Start</h2>
+                        <p>Press Call Next to begin</p>
+                    </div>
+                </div>
+
+                <div class="current-item-card" id="currentItemCard" style="display: none;">
+                    <div class="item-number" id="itemNumber">#1</div>
+                    <div class="item-name" id="itemName"></div>
+                    <div class="item-image-container">
+                        <img id="itemImage" src="" alt="" class="item-image">
+                    </div>
+                </div>
             </div>
         </main>
 
@@ -65,7 +67,10 @@
         </div>
 
         <footer class="app-footer">
-            <p>Nature Bingo Caller © 2026</p>
+            <button class="btn btn-secondary btn-compact" id="resetBtn">
+                <span class="btn-icon">🔄</span>
+                <span>Reset</span>
+            </button>
         </footer>
     </div>
 

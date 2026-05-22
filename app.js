@@ -189,9 +189,8 @@ class BingoCaller {
     showCompletionMessage() {
         this.elements.currentItemContainer.querySelector('.welcome-message').innerHTML = `
             <div class="icon">🎉</div>
-            <h2>All Items Called!</h2>
-            <p>You've called all ${this.items.length} nature items.</p>
-            <p style="margin-top: 16px; color: var(--text-tertiary);">Press Reset to start over</p>
+            <h2>All Items Called</h2>
+            <p>You've called all ${this.items.length} nature items</p>
         `;
         this.elements.currentItemContainer.querySelector('.welcome-message').style.display = 'block';
         this.elements.currentItemCard.style.display = 'none';
@@ -211,8 +210,8 @@ class BingoCaller {
             // Reset UI
             this.elements.currentItemContainer.querySelector('.welcome-message').innerHTML = `
                 <div class="icon">🎲</div>
-                <h2>Ready to Start!</h2>
-                <p>Press "Call Next Item" to begin</p>
+                <h2>Ready to Start</h2>
+                <p>Press the button above to begin</p>
             `;
             this.elements.currentItemContainer.querySelector('.welcome-message').style.display = 'block';
             this.elements.currentItemCard.style.display = 'none';

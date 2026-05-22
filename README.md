@@ -1,83 +1,82 @@
-# 🦉 Items to Images App
+# 🌿 Spotted on Site - Nature Bingo Caller
 
-A Node.js CLI tool for generating wildlife flashcards, bingo boards, and running a bingo caller session using UK wildlife species. It fetches images and facts for each item, and outputs printable PDFs.
+A mobile-optimized web app for calling nature bingo items spotted on site. Features a modern, clean interface with dark green theme inspired by Microsoft Fluent UI.
+
+🎮 **[Launch the App](https://gg-platform.github.io/Nature-Bingo/)**
 
 ---
 
 ## ✨ Features
 
-- Fetches images from Wikimedia, Google, and Pexels (with fallback)
-- Uses OpenAI to generate concise, accurate UK wildlife facts
-- Generates A4 flashcards and bingo boards as PDFs
-- Interactive Bingo Caller mode (no repeats per session)
-- Caches facts and images for efficiency
+- **75 Nature Items** - Comprehensive list of UK wildlife and nature items
+- **Mobile-First Design** - Optimized for phones, tablets, and desktops
+- **Adaptive Layout** - Controls adjust based on screen size and orientation
+- **No Repeats** - Each item called only once per session
+- **Visual Display** - Large images with item names
+- **Call History** - See all previously called items
+- **Keyboard Shortcuts** - Space/Enter to call next, R to reset
+- **Progressive Web App** - Works offline, feels like a native app
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Usage
 
-### 1. Clone and Install
+1. **Press "Call Next"** to reveal a random nature item
+2. **View the Image** and item name prominently displayed
+3. **Check Called Items** section at the bottom to see what's been called
+4. **Press Reset** to start a new session
 
+### Keyboard Shortcuts
+- `Space` or `Enter` - Call next item
+- `R` - Reset session
+
+---
+
+## 🎨 Design
+
+Modern Model-Driven app aesthetic with:
+- **Dark green nature theme** (#1a5c31 primary, #2d9656 accent)
+- **Compact header & footer** for maximum content space
+- **Adaptive layout** - Side-by-side on wide screens, stacked on mobile
+- **Fixed viewport** - True app-like feel with no scrolling issues
+- **Smooth animations** - Polished transitions and interactions
+
+---
+
+## 🛠️ Technology
+
+- Vanilla JavaScript (ES6+)
+- Modern CSS (Flexbox, CSS Grid, CSS Variables)
+- HTML5
+- No frameworks or dependencies
+- Deployed via GitHub Actions to GitHub Pages
+
+---
+
+## 📱 Responsive Breakpoints
+
+- **Desktop (> 768px):** Controls sidebar with stats and button next to image card
+- **Tablet/Mobile (≤ 768px):** Horizontal controls above image card
+- **Small Mobile (≤ 480px):** Full vertical stack for optimal space
+- **Landscape Mode:** Optimized layout for horizontal orientation
+
+---
+
+## 🚀 Development
+
+### Local Testing
 ```bash
-git clone https://github.com/yourusername/items-to-images-app.git
-cd items-to-images-app
-npm install
+# Simple HTTP server
+python -m http.server 8000
+
+# Or with Node.js
+npx serve
 ```
 
-### 2. Set Up API Keys
+Then open [http://localhost:8000](http://localhost:8000)
 
-Create a `.env` file in the project root:
-
-```
-PEXELS_API_KEY=your_pexels_api_key
-OPENAI_API_KEY=your_openai_api_key
-GOOGLE_API_KEY=your_google_api_key
-GOOGLE_CSE_ID=your_google_cse_id
-```
-
-### 3. Prepare Your Input
-
-Create an `input.txt` file (one item per line):
-
-```
-Robin
-Oak tree
-Peacock butterfly
-Wood pigeon
-Green woodpecker
-```
-
----
-
-## 🖥️ Usage
-
-Run the app:
-
-```bash
-node index.js
-```
-
-You will see a menu:
-
-```
-📚 Wildlife Image App Menu
-1. Generate/Update Flashcards
-2. Generate Bingo Boards
-3. Bingo Caller
-4. Exit
-```
-
-- **Flashcards:** Generates a PDF of flashcards with images and facts.
-- **Bingo Boards:** Generates randomized bingo boards as PDFs.
-- **Bingo Caller:** Randomly calls items from your list, one at a time, without repeats.
-
----
-
-## 📝 Notes
-
-- Images and facts are cached in the output folder.
-- If an image cannot be found or is invalid, it is skipped or replaced.
-- The Bingo Caller will not repeat items in a session.
+### Deployment
+Automatic deployment to GitHub Pages via GitHub Actions on every push to `main`.
 
 ---
 
@@ -87,16 +86,9 @@ MIT License
 
 ---
 
-## 🙏 Credits
+## 🌱 About
 
-- [OpenAI](https://openai.com/)
-- [Pexels](https://www.pexels.com/)
-- [Wikipedia](https://www.wikipedia.org/)
-- [PDFKit](https://pdfkit.org/)
-
----
-
-## 🌐 Web Bingo Caller
+Created for nature education and wildlife spotting activities. Perfect for guided nature walks, outdoor education sessions, and wildlife awareness programs.
 
 A mobile-friendly web version of the bingo caller is also available!
 

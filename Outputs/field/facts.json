@@ -1,0 +1,1804 @@
+{
+  "Soil": {
+    "facts": [
+      {
+        "fact": "Soil conservation is vital as it prevents erosion, maintains fertility and supports biodiversity.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Soil sustains life by acting as a medium for plant growth.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Soil is found globally and provides a habitat for a multitude of organisms.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Minimize soil compaction and erosion by planting trees and using ground cover plants.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Decomposers like bacteria and fungi",
+      "reason": "These organisms help break down organic matter, contributing to the nutrient cycle and maintaining soil fertility."
+    },
+    "imagePath": "0_Soil.jpg"
+  },
+  "Bees": {
+    "facts": [
+      {
+        "fact": "Bees are vital for pollination, contributing to the growth of plants, flowers and crops.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Bees primarily feed on nectar and pollen from flowers.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Bees live in a wide variety of habitats, including woods, meadows, gardens, and urban areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Planting native flowers, reducing pesticide use, and providing a water source can help conserve bee populations.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Flowering Plants",
+      "reason": "Bees depend on flowering plants for their diet, and in turn, these plants depend on bees for pollination."
+    },
+    "imagePath": "1_Bees.jpg"
+  },
+  "Oak tree": {
+    "facts": [
+      {
+        "fact": "Oak trees are widespread in the UK and are under threat due to diseases such as acute oak decline and oak processionary moth.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "The diet of an oak tree consists of water, sunlight, carbon dioxide and nutrients from the soil.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Oak trees are extremely hardy and can thrive in a variety of habitats, but they prefer well-drained soil in sunny areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve oak trees, avoid damaging the bark, ensure they have enough water, and monitor for signs of disease or pests.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects",
+      "reason": "Many insects, such as the oak processionary moth, depend on oak trees for habitat and food, and in turn, they contribute to the tree's pollination."
+    },
+    "imagePath": "2_Oak_tree.jpg"
+  },
+  "Hazel": {
+    "facts": [
+      {
+        "fact": "Hazel trees have been in decline due to loss of suitable habitat.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Hazel trees produce nuts which provide food for many wildlife species.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Hazel trees are commonly found in woodlands, hedgerows and gardens throughout the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Planting new hazel trees and managing existing woodlands can help conserve this species.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Grey Squirrel",
+      "reason": "Grey squirrels eat hazelnuts and help in their dispersal, which leads to the growth of new hazel trees."
+    },
+    "imagePath": "3_Hazel.jpg"
+  },
+  "Blackthorn": {
+    "facts": [
+      {
+        "fact": "Blackthorn is protected in the UK under the Wildlife and Countryside Act, 1981.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Blackthorn primarily feeds on sunlight, water, and nutrients from the soil.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Blackthorn is a native shrub in the UK and it thrives in hedgerows, woodland edges, and scrubland.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve Blackthorn, avoid cutting back during nesting season and consider planting in domestic or public spaces to provide natural habitat.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Pollinators",
+      "reason": "Blackthorn relies on pollinators like bees and butterflies for seed distribution and reproduction."
+    },
+    "imagePath": "4_Blackthorn.jpg"
+  },
+  "Mycelium (fungi)": {
+    "facts": [
+      {
+        "fact": "Mycelium is considered critical in soil and plant health, recycling organic material and providing nutrients to plants.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Mycelium feeds on decomposing organic material, breaking it down into simpler compounds that plants can use.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Mycelium can be found in various habitats, from woodlands to grasslands, wherever there is organic matter.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve Mycelium, avoid using harmful pesticides and improve soil health by adding organic matter.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Decomposing organic matter",
+      "reason": "Mycelium relies on decomposing organic matter for its nutrient source."
+    },
+    "imagePath": "5_Mycelium_(fungi).jpg"
+  },
+  "Yarrow": {
+    "facts": [
+      {
+        "fact": "Yarrow is a common plant species in the UK and is not currently at risk.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Yarrow is a herbivore, mainly feeding on sunlight, water, and soil nutrients.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Yarrow is found in a variety of habitats, including meadows, pastures, and the edges of forest paths.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve Yarrow, avoid trampling or mowing over its habitat, and consider planting it in your garden to support biodiversity.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "6_Yarrow.jpg"
+  },
+  "Lettuce": {
+    "facts": [
+      {
+        "fact": "Lettuce is not an endangered species; it is cultivated widely for its leaves which are commonly used in salads.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Lettuce is an autotroph, it makes its own food through the process of photosynthesis.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "In the UK, lettuce can be grown in a variety of soils but it prefers well-drained, cool conditions with plenty of sunlight.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve lettuce biodiversity, consider planting a variety of lettuce types in your garden.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Bees and other pollinators help in the flowering and seed production of lettuce."
+    },
+    "imagePath": "7_Lettuce.jpg"
+  },
+  "Apple trees": {
+    "facts": [
+      {
+        "fact": "Apple trees are not currently under threat and are widespread across the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Apple trees are autotrophs, deriving their energy from sunlight through photosynthesis.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Apple trees thrive in well-drained soil and full sunlight, commonly found in orchards and gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve apple trees, avoid using pesticides and consider planting native apple tree varieties.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and other pollinators",
+      "reason": "Apple trees rely on bees and other pollinators to cross-pollinate their flowers in order to produce fruit."
+    },
+    "imagePath": "5_Apple_trees.jpg"
+  },
+  "Cocksfoot grass": {
+    "facts": [
+      {
+        "fact": "Cocksfoot grass is not currently considered threatened, but overgrazing can lead to its decline.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Cocksfoot grass is a type of grass, and like all grasses, it carries out photosynthesis to produce its own food.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Cocksfoot grass is found in a variety of habitats including grasslands, woodlands, and even urban areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve Cocksfoot grass, avoid overgrazing and consider planting it in your garden to provide habitat for wildlife.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Various insects and small mammals",
+      "reason": "Cocksfoot grass provides food and shelter to a variety of insects and small mammals, and its health can reflect the overall health of these populations."
+    },
+    "imagePath": "6_Cocksfoot_grass.jpg"
+  },
+  "Yorkshire fog grass": {
+    "facts": [
+      {
+        "fact": "Yorkshire fog grass is a common species and not currently threatened.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "It is a grass species, thus photosynthesises for its food requirements.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "It thrives in damp, nutrient-rich soils, often found in meadows, roadsides and wastelands.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Maintaining a variety of grass species in a meadow can help conserve Yorkshire fog grass.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Soil organisms",
+      "reason": "The health and growth of Yorkshire fog grass is heavily dependent on the nutrient cycling provided by soil organisms."
+    },
+    "imagePath": "7_Yorkshire_fog_grass.jpg"
+  },
+  "Oxeye daisy": {
+    "facts": [
+      {
+        "fact": "The Oxeye daisy is a common wildflower that is not currently under threat.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Oxeye daisies are herbivorous, they absorb nutrients from the soil through their roots.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They are typically found in meadows, fields, and roadside verges all across the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve Oxeye daisies, avoid mowing over patches of them during their flowering period (May to September).",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and other insects",
+      "reason": "Oxeye daisies depend on insects for pollination, which helps in the reproduction of the species."
+    },
+    "imagePath": "8_Oxeye_daisy.jpg"
+  },
+  "Ragged Robin": {
+    "facts": [
+      {
+        "fact": "Ragged Robin is a UK native wildflower species that has sadly declined in numbers due to loss of its wetland habitat.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "It doesn't have a specific diet as it primarily absorbs nutrients from the soil through its roots.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Ragged Robin typically grows in wet areas such as marshes, fens, and wet woodlands.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve the Ragged Robin, avoid draining wetlands and allow this wildflower to grow in its natural habitat.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and Butterflies",
+      "reason": "Ragged Robin heavily depends on bees and butterflies for pollination."
+    },
+    "imagePath": "9_Ragged_Robin.jpg"
+  },
+  "Knapweed": {
+    "facts": [
+      {
+        "fact": "Knapweed is considered a resilient invasive species in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Knapweed feeds mainly on soil nutrients and sunlight, as it is a type of flowering plant.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Knapweed thrives in a variety of habitats, including grasslands, meadows, fields, and along roadsides.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help control the spread of Knapweed, avoid disposing garden waste in the wild and report any sightings to local conservation groups.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and butterflies",
+      "reason": "Knapweed relies on bees and butterflies for pollination, which promotes growth and spread."
+    },
+    "imagePath": "10_Knapweed.jpg"
+  },
+  "Birdsfoot trfoil": {
+    "facts": [
+      {
+        "fact": "Birdsfoot trefoil is not considered threatened, but habitat loss can impact local populations.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Birdsfoot trefoil is a plant and its diet consists of sunlight, water and soil nutrients.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "This plant is commonly found in grasslands, meadows, roadsides, and wastelands throughout the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve Birdsfoot trefoil, avoid using pesticides and consider planting it in your garden to support local wildlife.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and other pollinators",
+      "reason": "Birdsfoot trefoil relies on bees and other pollinators for reproduction."
+    },
+    "imagePath": "11_Birdsfoot_trfoil.jpg"
+  },
+  "Runner beans": {
+    "facts": [
+      {
+        "fact": "Runner beans are not under any specific conservation status in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Runner beans are self-fertilizing, producing both pollen and eggs.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "In the UK, runner beans prefer a sunny, sheltered spot with well-drained soil.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve runner beans, regular watering is required, especially during dry spells.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "While they are self-fertilizing, runner beans still benefit from pollinators like bees to maximize their yield."
+    },
+    "imagePath": "15_Runner_beans.jpg"
+  },
+  "Tomatos": {
+    "facts": [
+      {
+        "fact": "Tomato is not a native species in the UK but can be grown in gardens and greenhouses.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Tomato plants are herbivorous, they get their nutrients from the soil and sunlight.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They thrive in well-drained, fertile soil with a pH between 6.2 and 6.8.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve tomato plants, avoid overwatering and ensure they get plenty of sunlight.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "16_Tomatos.jpg"
+  },
+  "Chard": {
+    "facts": [
+      {
+        "fact": "Chard is not a wildlife species but a type of vegetable.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Chard is a leafy green vegetable often used in Mediterranean cooking.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Chard prefers to grow in cooler temperatures and well-drained soil.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve chard, it's best to harvest leaves regularly to encourage new growth.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Bees pollinate chard, helping it to reproduce."
+    },
+    "imagePath": "17_Chard.jpg"
+  },
+  "Chickens": {
+    "facts": [
+      {
+        "fact": "In the UK, chickens are not considered a wildlife species but are largely domesticated for egg and meat production.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Chickens are omnivorous, feeding on seeds, insects, and even small mice and lizards.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Chickens usually live in farmyard environments or in a 'coop', and they prefer to have access to outdoor space during the day.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To contribute to chicken conservation, consider buying free-range or organic chicken products to encourage humane farming practices.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "18_Chickens.jpg"
+  },
+  "Buzzard": {
+    "facts": [
+      {
+        "fact": "Buzzards are the most common bird of prey in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Their diet consists mainly of small mammals, birds, and carrion.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Buzzards prefer woodland edges and open countryside as their habitat.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Avoid using rodenticides that can indirectly poison buzzards when they feed on contaminated rodents.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Rodents",
+      "reason": "Buzzards rely on rodents for a significant part of their diet."
+    },
+    "imagePath": "20_Buzzard.jpg"
+  },
+  "Jay": {
+    "facts": [
+      {
+        "fact": "The Jay is not currently endangered in the UK, but habitat loss can pose a threat.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Jays eat a variety of foods including insects, seeds, fruits, and small mammals.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Jays are woodland birds, often found in oak woods, parks, and gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Keeping garden areas wooded and providing bird-friendly food can help support Jay populations.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Oak Trees",
+      "reason": "Jays are heavily dependent on oak trees for their food, especially acorns, which they store for the winter."
+    },
+    "imagePath": "21_Jay.jpg"
+  },
+  "Green woodpecker": {
+    "facts": [
+      {
+        "fact": "The green woodpecker is the largest of the three woodpeckers that breed in Britain.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "The main diet of a green woodpecker is ants and their larvae.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Green woodpeckers live in broadleaved woodlands, especially with old trees; also parks and large gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve green woodpeckers, avoid using pesticides in your garden which can reduce their food source.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Ants",
+      "reason": "Green woodpeckers primarily feed on ants and their larvae."
+    },
+    "imagePath": "22_Green_woodpecker.jpg"
+  },
+  "Cinnabar moth": {
+    "facts": [
+      {
+        "fact": "The Cinnabar moth is not currently considered a threatened species in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "The Cinnabar moth caterpillars feed almost exclusively on ragwort plants.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Cinnabar moths are found in a wide range of habitats including open grassland, woodland clearings, and urban gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "You can help conserve the Cinnabar moth by allowing ragwort to grow in your garden or local green space.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Ragwort plant",
+      "reason": "Cinnabar moth caterpillars rely on ragwort plants as their primary food source."
+    },
+    "imagePath": "25_Cinnabar_moth.jpg"
+  },
+  "Peacock butterfly": {
+    "facts": [
+      {
+        "fact": "The Peacock butterfly is not currently threatened and is common throughout the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "They feed primarily on nectar from flowers, rotting fruit and tree sap.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Peacock butterflies can be found in a variety of habitats including gardens, woodlands and hedgerows.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "You can help conserve the Peacock butterfly by planting nectar-rich flowers in your garden.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Nettle plants",
+      "reason": "Peacock butterfly larvae feed exclusively on nettle plants."
+    },
+    "imagePath": "26_Peacock_butterfly.jpg"
+  },
+  "Barn owl": {
+    "facts": [
+      {
+        "fact": "Barn owls are a protected species in the UK under the Wildlife and Countryside Act 1981.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "They primarily eat small mammals, especially voles, mice and shrews.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Barn owls live in open countryside, favouring rough grassland and hedgerows.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve barn owls, leave old buildings and trees where they can nest, and encourage rough grassland habitats.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Small mammals",
+      "reason": "Barn owls depend on small mammals for their primary food source."
+    },
+    "imagePath": "34_Barn_owl.jpg"
+  },
+  "Field mice": {
+    "facts": [
+      {
+        "fact": "Field mice are not considered endangered or threatened in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Field mice are omnivorous, they primarily eat seeds, fruits, insects, and worms.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Field mice are typically found in fields, meadows, and forests.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve field mice, maintain natural habitats and avoid using harmful pesticides.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Various plant species",
+      "reason": "Field mice depend on a variety of plant species for their food and shelter."
+    },
+    "imagePath": "35_Field_mice.jpg"
+  },
+  "European eel": {
+    "facts": [
+      {
+        "fact": "The European eel is classified as critically endangered by the IUCN.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "European eels are omnivores, feeding on a wide variety of prey including insects, worms, and small fish.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "European eels inhabit a wide range of habitats, from freshwater rivers and lakes to brackish coastal waters.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve the European eel, support initiatives that protect their habitats from pollution and overfishing.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insect and small fish populations",
+      "reason": "European eels depend on these as their primary food sources."
+    },
+    "imagePath": "36_European_eel.jpg"
+  },
+  "Brimstone butterfly": {
+    "facts": [
+      {
+        "fact": "The Brimstone butterfly is not threatened and is quite common throughout the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Brimstone butterflies feed on nectar from a variety of flowers.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They prefer open woodland, hedgerows and scrub, but can also be found in gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Planting nectar-rich flowers in your garden can provide food for the Brimstone butterfly.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Buckthorn",
+      "reason": "Buckthorn is the only food plant of the Brimstone butterfly caterpillars."
+    },
+    "imagePath": "37_Brimstone_butterfly.jpg"
+  },
+  "Humans": {
+    "facts": [
+      {
+        "fact": "Humans are not considered endangered.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Humans are omnivores, consuming a varied diet of plant and animal matter.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Humans are adaptable and can live in a variety of habitats, from cities to rural areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Humans can help conserve wildlife by reducing waste, recycling, and supporting conservation organizations.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Various plant and animal species",
+      "reason": "Humans rely on other species for food, clothing, and various resources."
+    },
+    "imagePath": "39_Humans.jpg"
+  },
+  "Wasp": {
+    "facts": [
+      {
+        "fact": "There are over 9,000 species of wasps in the UK, and many of them are beneficial for natural pest control.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Wasps are omnivores, feeding on other insects, caterpillars, spiders, and also sugary substances like nectar and fruits.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Wasps inhabit a variety of habitats, including gardens, woodlands, meadows, and urban areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Avoid killing wasps as they play a crucial role in controlling other pests. Instead, manage your food waste properly to avoid attracting them.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Other Insects and Spiders",
+      "reason": "Wasps depend on other insects and spiders as a primary food source for their larvae."
+    },
+    "imagePath": "40_Wasp.jpg"
+  },
+  "Stinging nettles": {
+    "facts": [
+      {
+        "fact": "Stinging nettles are widespread in the UK, often found in gardens, hedgerows and woods.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Stinging nettles are not currently under threat and are considered of least concern.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Nettles are primarily herbivorous, absorbing nutrients from the soil.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "To conserve stinging nettles, avoid using pesticides and let them grow in wild areas of your garden.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Butterflies and Moths",
+      "reason": "Certain species of butterflies and moths lay their eggs on stinging nettles, the larvae use them as a food source."
+    },
+    "imagePath": "41_Stinging_nettles.jpg"
+  },
+  "Painted lady butterfly": {
+    "facts": [
+      {
+        "fact": "The painted lady butterfly is not a protected species in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "The painted lady butterfly mainly feeds on nectar from various flowers.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Painted lady butterflies can be found in any habitat, but they're most common in gardens and meadows.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Planting nectar-rich flowers can help conserve the painted lady butterfly population.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Flowering plants",
+      "reason": "Painted lady butterflies rely on flowering plants for their nectar diet."
+    },
+    "imagePath": "42_Painted_lady_butterfly.jpg"
+  },
+  "Loganberries": {
+    "facts": [
+      {
+        "fact": "Loganberries are not threatened and are considered to be of least concern.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Loganberries are a hybrid of blackberries and raspberries, and their diet consists of water, sunlight, and nutrient-rich soil.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Loganberries thrive in a range of soil types, but prefer well-drained soils. They can be found in gardens and cultivated fields.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Planting Loganberries in nutrient-rich soil and ensuring they receive enough sunlight can help conserve this species.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and other pollinators",
+      "reason": "Loganberries depend on pollinators for fertilization and fruit production."
+    },
+    "imagePath": "43_Loganberries.jpg"
+  },
+  "Blueberries": {
+    "facts": [
+      {
+        "fact": "In the UK, blueberries are not considered endangered or under threat.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Blueberries are autotrophs, they produce their food via photosynthesis.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Blueberries thrive in acidic soils in damp, shady areas and are commonly found in heathland and moorland.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Planting blueberries can help support local pollinators such as bees and butterflies.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Blueberries require cross-pollination from bees to produce fruit."
+    },
+    "imagePath": "44_Blueberries.jpg"
+  },
+  "Tayberries": {
+    "facts": [
+      {
+        "fact": "Tayberries are not a threatened species and are widely cultivated in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "The Tayberry is a cross between a blackberry and a red raspberry and feeds on water and sunlight.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Tayberries prefer well-drained soil and full sun exposure, and are commonly found in gardens and farms.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve Tayberries, regular pruning is recommended to maintain healthy growth and prevent diseases.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Bees are essential for the pollination of Tayberries."
+    },
+    "imagePath": "45_Tayberries.jpg"
+  },
+  "Raspberry": {
+    "facts": [
+      {
+        "fact": "Raspberry plants are not currently threatened or endangered in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Raspberries are not carnivorous and mainly rely on water, sunlight and soil nutrients for growth.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Raspberry plants prefer well-drained soil and thrive in full sunlight in the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve raspberry plants, avoid using pesticides and ensure they have sufficient water, especially in dry periods.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Raspberry plants depend on bees for pollination to propagate."
+    },
+    "imagePath": "46_Raspberry.jpg"
+  },
+  "Fig tree": {
+    "facts": [
+      {
+        "fact": "Fig trees are not native to the UK but can be found in warmer areas and are often grown in greenhouses.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Fig trees are autotrophic, conducting photosynthesis to create their own food.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "In the UK, fig trees thrive in well-drained soil and prefer areas with plenty of sunlight.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve fig trees, ensure they are not exposed to freezing temperatures and regularly prune to maintain size and shape.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Fig wasp",
+      "reason": "Fig trees rely on fig wasps for pollination. Without fig wasps, they cannot reproduce."
+    },
+    "imagePath": "47_Fig_tree.jpg"
+  },
+  "Walnut": {
+    "facts": [
+      {
+        "fact": "Walnut trees in the UK are not under any specific conservation threat.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Walnut trees are autotrophs that photosynthesize to create their own food.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Walnuts thrive in well-drained soil in full sun or partial shade.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve walnut trees, avoid unnecessary pruning and ensure the ground around them is kept clear of debris.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "48_Walnut.jpg"
+  },
+  "Chives": {
+    "facts": [
+      {
+        "fact": "Chives are not a threatened species and are easy to cultivate.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Chives are herbivorous, feeding on nutrients from the soil.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Chives can be found in gardens and meadows across the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve chives, avoid over-harvesting and allow plants to fully mature before picking.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Bees help in the pollination of chives, contributing to their propagation."
+    },
+    "imagePath": "49_Chives.jpg"
+  },
+  "Rosemary": {
+    "facts": [
+      {
+        "fact": "In the UK, rosemary is not at risk and does not require conservation efforts.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Rosemary plants do not eat; they photosynthesise to produce their own food.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Rosemary prefers well-drained soils and locations with full sun exposure.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Do not overwater rosemary plants, they are drought tolerant and require less water than many plants.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "50_Rosemary.jpg"
+  },
+  "Curry plant": {
+    "facts": [
+      {
+        "fact": "The Curry plant is not currently considered at risk.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "As an autotroph, the Curry plant produces its own food through photosynthesis.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "The Curry plant prefers well-drained soil and full sun exposure.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve the Curry plant, avoid over-watering and ensure it has plenty of sunlight.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "51_Curry_plant.jpg"
+  },
+  "Rhubarb": {
+    "facts": [
+      {
+        "fact": "Rhubarb is not a wild species, but a cultivated plant.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Rhubarb is a herbaceous perennial growing from short, thick rhizomes, it is not a true fruit.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Rhubarb prefers a cool climate, a well-drained and fertile soil.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Rhubarb should not be harvested in its first year, and after this only the stalks should be taken.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "52_Rhubarb.jpg"
+  },
+  "Thyme": {
+    "facts": [
+      {
+        "fact": "Thyme is not an endangered species in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Thyme is a herbivore, absorbing nutrients from the soil through its roots.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Thyme prefers sunny habitats with well-drained soil.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Plant thyme in your garden to provide food for bees and other pollinators.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Bees assist in the pollination of thyme, which aids in its propagation and survival."
+    },
+    "imagePath": "53_Thyme.jpg"
+  },
+  "Primrose": {
+    "facts": [
+      {
+        "fact": "Primrose is protected under the Wildlife and Countryside Act 1981 in the UK, making it illegal to pick, uproot or destroy the plant without permission.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Primrose is an herbivorous plant that feeds through photosynthesis.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Primrose thrives in damp woods, hedgerows, meadows and at the base of trees, preferring slightly acidic soil.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve Primroses, plant them in your garden and avoid using pesticides or other chemicals that could harm them.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "54_Primrose.jpg"
+  },
+  "Foxgloves": {
+    "facts": [
+      {
+        "fact": "Foxgloves are not endangered but their habitat is increasingly under threat.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Foxgloves are not edible and are actually toxic to humans and some animals.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Foxgloves prefer acidic soil and are usually found in woodland clearings, heathlands and mountain slopes.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve Foxgloves, avoid using pesticides and allow some areas of your garden to grow wild.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Foxgloves depend on bees for pollination."
+    },
+    "imagePath": "55_Foxgloves.jpg"
+  },
+  "Sunflowers": {
+    "facts": [
+      {
+        "fact": "Sunflowers are not threatened and are often cultivated for their seeds and oil.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Sunflowers are autotrophs, they produce their own food through photosynthesis.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Sunflowers prefer full sun and well-drained soil and can be found in gardens, fields, and wastelands.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Plant sunflowers in your garden to attract bees and other pollinators.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Sunflowers depend on bees for pollination to produce seeds."
+    },
+    "imagePath": "56_Sunflowers.jpg"
+  },
+  "Onions": {
+    "facts": [
+      {
+        "fact": "Onions are not endangered and are extensively cultivated.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Onions are autotrophs, producing food through photosynthesis using sunlight.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Onions grow best in well-drained, loose soil and full sunlight.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Composting onion peels and scraps is a great way to reduce waste and enrich soil.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Onions depend on bees for pollination."
+    },
+    "imagePath": "57_Onions.jpg"
+  },
+  "Daffodils": {
+    "facts": [
+      {
+        "fact": "Daffodils are not considered at risk in the UK and are protected under the Wildlife and Countryside Act 1981.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Daffodils are not eaten by many animals due to their toxicity.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Daffodils are found in woodlands, grasslands and gardens throughout the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Avoid picking wild daffodils, to help preserve their numbers.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "58_Daffodils.jpg"
+  },
+  "Tulips": {
+    "facts": [
+      {
+        "fact": "Tulips are not native to the UK, but they have been naturalised in some areas.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Tulips are herbaceous plants and their primary diet consists of water and nutrients from the soil.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Tulips thrive in well-drained soil in areas with full or afternoon sun.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Plant tulip bulbs in the autumn for a spring display. Do not water excessively as it can lead to bulb rot.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "59_Tulips.jpg"
+  },
+  "Roe deer": {
+    "facts": [
+      {
+        "fact": "Roe deer are of least concern according to the IUCN Red List.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Roe deer are browsers and primarily feed on leaves, shoots, berries, and young twigs.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They inhabit woodland areas, agricultural land, and grasslands across the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Help conserve roe deer by maintaining woodland habitats and reducing high-speed traffic in areas they inhabit.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Forest ecosystems",
+      "reason": "Roe deer depend on forest ecosystems for shelter and food resources."
+    },
+    "imagePath": "60_Roe_deer.jpg"
+  },
+  "Muntjac": {
+    "facts": [
+      {
+        "fact": "The Muntjac is not a native species to the UK, but was introduced in the 20th century.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Muntjacs are herbivores, feeding on grass, berries, shoots, fruits, and vegetation.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Muntjacs inhabit woodland areas, preferring dense cover where they can hide from predators.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Minimise disturbance to woodland habitats to help conserve Muntjac populations.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Woodland flora",
+      "reason": "Muntjacs depend on an abundance of woodland vegetation for their diet."
+    },
+    "imagePath": "61_Muntjac.jpg"
+  },
+  "Great tit": {
+    "facts": [
+      {
+        "fact": "The population of Great tit is large, and therefore does not approach the thresholds for Vulnerable under the range size criterion.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Great tits are omnivorous, they eat a wide range of invertebrates, especially caterpillars, seeds and berries.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They prefer deciduous woodland but are also commonly seen in parks and gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve Great tits, consider setting up bird feeders or nesting boxes in your garden.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Deciduous Trees",
+      "reason": "Great tits build nests in holes in trees, often deciduous, and rely on them for food and shelter."
+    },
+    "imagePath": "62_Great_tit.jpg"
+  },
+  "Chiffchaff": {
+    "facts": [
+      {
+        "fact": "Chiffchaffs are classified as Green under the Birds of Conservation Concern.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Chiffchaffs primarily feed on insects and spiders.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They are typically found in woodland, scrub, parks and gardens across the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Maintaining a diverse range of habitats, including scrub and woodland, is crucial for the conservation of Chiffchaffs.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects and Spiders",
+      "reason": "Chiffchaffs rely on these small creatures for their diet."
+    },
+    "imagePath": "63_Chiffchaff.jpg"
+  },
+  "Robin": {
+    "facts": [
+      {
+        "fact": "The UK robin population has declined by 32% since the 1970s.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Robins primarily eat insects, spiders, worms, berries and seeds.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Robins live in a variety of habitats including gardens, woodlands, hedgerows and parks.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "You can help conserve robins by providing birdhouses, bird baths, and a varied diet in your garden.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects and Spiders",
+      "reason": "Robins depend on insects and spiders for their primary food source."
+    },
+    "imagePath": "64_Robin.jpg"
+  },
+  "Song thrush": {
+    "facts": [
+      {
+        "fact": "The song thrush is listed as a species of Least Concern by the IUCN.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "This bird's diet primarily consists of snails, earthworms, and a variety of insects.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Song thrushes prefer areas with a mix of trees and open ground; they can be found in woodlands, parks, and gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To support song thrushes, consider creating a wildlife-friendly garden with a variety of plant species and a source of clean water.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Snails and earthworms",
+      "reason": "Song thrushes depend on these invertebrates as their primary food source."
+    },
+    "imagePath": "65_Song_thrush.jpg"
+  },
+  "Chiff chaff": {
+    "facts": [
+      {
+        "fact": "The Chiff chaff is not currently considered a threatened species.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "The Chiff chaff feeds mainly on insects and their larvae.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "The Chiff chaff is commonly found in woodland and other areas with plenty of trees and shrubs.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Maintaining healthy woodland habitats with diverse plant life can help support Chiff chaff populations.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects",
+      "reason": "Chiff chaffs feed mainly on insects and their larvae."
+    },
+    "imagePath": "66_Chiff_chaff.jpg"
+  },
+  "Crow": {
+    "facts": [
+      {
+        "fact": "The crow is not endangered and is, in fact, one of the most common birds in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Crows are omnivores, they eat small animals, insects, fruits, seeds and carrion.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Crows prefer habitats near water, but they can adapt to almost any environment, including urban and suburban areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve the crow population, avoid using harmful pesticides that can kill their food sources.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects and Small Mammals",
+      "reason": "Crows depend on these species for food."
+    },
+    "imagePath": "67_Crow.jpg"
+  },
+  "Wood pigeon": {
+    "facts": [
+      {
+        "fact": "The wood pigeon is the largest and most common pigeon found in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Wood pigeons feed on seeds, grains, fruits, and vegetables.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Wood pigeons are found in fields, woods, parks and gardens across the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Keep bird feeders clean and filled, as these birds rely on them, especially during winter.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Trees",
+      "reason": "Wood pigeons build their nests in trees and rely on them for shelter and food."
+    },
+    "imagePath": "69_Wood_pigeon.jpg"
+  },
+  "Heron": {
+    "facts": [
+      {
+        "fact": "The grey heron is a common and widespread bird in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Herons primarily feed on fish, but will also eat amphibians and small mammals.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Herons are found near water bodies such as lakes, rivers, ponds and coastal areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Avoid disturbing nesting sites and maintain clean water bodies to support their diet.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Fish",
+      "reason": "Herons depend on fish as their primary food source."
+    },
+    "imagePath": "73_Heron.jpg"
+  },
+  "Long-tailed tit": {
+    "facts": [
+      {
+        "fact": "The long-tailed tit is a common species but their populations are affected by harsh winters.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Their diet mainly consists of insects and spiders, but they also eat seeds and nuts in the colder months.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They inhabit deciduous and mixed woodland, scrub, hedgerows, and even parks and gardens.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Leaving out food sources, especially during winter months, can help conserve this species.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects and spiders",
+      "reason": "Long-tailed tits rely on insects and spiders as their primary food source."
+    },
+    "imagePath": "74_Long-tailed_tit.jpg"
+  },
+  "Swallow": {
+    "facts": [
+      {
+        "fact": "Swallow populations have suffered significant declines in the UK, primarily due to loss of suitable nesting sites.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Swallows primarily eat flying insects, including flies, beetles, and mosquitoes.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Swallows typically inhabit open country and make their nests in buildings, under bridges, and other structures.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve swallows, consider leaving spaces in buildings for nesting or installing special swallow nest boxes.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Flying insects",
+      "reason": "Swallows are insectivorous and rely on a plentiful supply of flying insects for food."
+    },
+    "imagePath": "75_Swallow.jpg"
+  },
+  "Pippestrelle bat": {
+    "facts": [
+      {
+        "fact": "The Pippestrelle bat is the most common bat species in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Their diet mainly consists of small flies, moths, and other small insects.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "These bats inhabit woodland edges, parks, and gardens, roosting in small crevices and buildings.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve Pippestrelle bats, avoid using pesticides in your garden and consider installing a bat box.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects",
+      "reason": "Pippestrelle bats depend on a healthy insect population for their food source."
+    },
+    "imagePath": "23_Pippestrelle_bat.jpg"
+  },
+  "Daubenton bat": {
+    "facts": [
+      {
+        "fact": "Daubenton's bat is classified as 'Least Concern' on the IUCN Red List of Threatened Species in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Daubenton's bats primarily feed on small insects like midges, caddisflies, and mayflies that they catch over water bodies.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They typically roost in tree holes, under bridges, and in tunnels during the summer, and in caves, tunnels, and mines during the winter.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve Daubenton's bats, preserve their roosting sites and the water bodies they feed over.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects",
+      "reason": "Daubenton's bats are insectivorous and rely on a healthy insect population for food."
+    },
+    "imagePath": "24_Daubenton_bat.jpg"
+  },
+  "Willow tree": {
+    "facts": [
+      {
+        "fact": "Willow trees are often planted to prevent soil erosion due to their extensive root system.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Willow trees are not picky eaters and can thrive in various types of soil, though they prefer wet, swampy conditions.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They predominantly live near water bodies like rivers, lakes and ponds throughout the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve this species, avoid cutting down willow trees unnecessarily and plant new ones in suitable wetland habitats.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and other insects",
+      "reason": "These insects pollinate the flowers of the willow tree, enabling it to reproduce."
+    },
+    "imagePath": "27_Willow_tree.jpg"
+  },
+  "Elm tree": {
+    "facts": [
+      {
+        "fact": "Elm trees in the UK have been greatly affected by Dutch elm disease since the 1960s.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Elm trees are known for their high nutritional value, providing food for many insects and birds.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Elm trees typically grow in hedgerows and woodland.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Regular inspection and immediate removal of diseased trees can help to prevent the spread of Dutch elm disease.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "White-letter Hairstreak butterfly",
+      "reason": "The larvae of the White-letter Hairstreak butterfly depend on elm trees for their development."
+    },
+    "imagePath": "28_Elm_tree.jpg"
+  },
+  "Hawthorn tree": {
+    "facts": [
+      {
+        "fact": "The hawthorn tree is a part of the rose family and is native to the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Hawthorn trees are omnivorous, feeding on a variety of insects, small mammals, and birds.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Hawthorn trees can thrive in a variety of habitats, including woodlands, hedgerows, and even urban areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To help conserve hawthorn trees, consider planting one in your garden or supporting local conservation efforts.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees",
+      "reason": "Bees pollinate the hawthorn tree's flowers, aiding in their reproduction process."
+    },
+    "imagePath": "29_Hawthorn_tree.jpg"
+  },
+  "Elder tree": {
+    "facts": [
+      {
+        "fact": "The Elder tree is not currently threatened or endangered in the UK.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Elder trees are known to produce elderberries, which are consumed by various bird species.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Elder trees are typically found in woodlands, hedgerows and scrubland across the UK.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "To conserve elder trees, avoid cutting them down and plant new ones in suitable habitats.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects such as the Elder aphid",
+      "reason": "These insects help to pollinate the Elder tree, aiding in its reproduction."
+    },
+    "imagePath": "30_Elder_tree.jpg"
+  },
+  "Ash tree": {
+    "facts": [
+      {
+        "fact": "The Ash tree is under threat due to an invasive fungal disease known as 'ash dieback'.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Ash trees are not selective and can grow in a range of soil types, provided they are well drained.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Ash trees do not have a specific diet, but rely on sunlight, water and nutrients from the soil to survive.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "To conserve Ash trees, avoid moving firewood over long distances to prevent the spread of ash dieback.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Various insects and birds",
+      "reason": "Ash trees provide habitat and food for various insects and birds, contributing to biodiversity."
+    },
+    "imagePath": "31_Ash_tree.jpg"
+  },
+  "Crab apple tree": {
+    "facts": [
+      {
+        "fact": "Crab apple trees are not currently threatened or endangered.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Crab apple trees are autotrophs, they make their own food through photosynthesis.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They are found in woodlands, hedgerows and areas of scrub.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Plant native trees like crab apple to increase biodiversity in your garden.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Bees and butterflies",
+      "reason": "Crab apple trees depend on bees and butterflies for pollination."
+    },
+    "imagePath": "32_Crab_apple_tree.jpg"
+  },
+  "Earth worm": {
+    "facts": [
+      {
+        "fact": "Earth worms are considered a 'gardener's friend' due to their role in improving soil fertility.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Earth worms primarily feed on decaying organic material such as dead leaves and plant matter.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They can be found in a variety of habitats but prefer moist, well-drained soil.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Avoid using chemical pesticides or fertilisers in your garden as they can harm earth worms.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "33_Earth_worm.jpg"
+  },
+  "Dog (Labrador)": {
+    "facts": [
+      {
+        "fact": "Labradors are not endangered or threatened.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "A Labrador's diet consists of a balanced mix of proteins, carbohydrates, and fats.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "As domestic animals, Labradors live in a variety of habitats, including urban, suburban, and rural areas.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Ensure your Labrador has a healthy diet, regular exercise, and regular vet check-ups to maintain its well-being.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "imagePath": "38_Dog_(Labrador).jpg"
+  },
+  "White throat (bird)": {
+    "facts": [
+      {
+        "fact": "The white throat is classified as 'Least Concern' on the IUCN Red List.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "White throats eat insects, fruit and berries.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "They inhabit scrubland, hedgerows and woodland edges, often near human habitation.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Creating a diverse garden with native shrubs and hedgerows can provide a suitable habitat for white throats.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Insects and Shrubs",
+      "reason": "White throats depend on insects for food and shrubs for nesting and protection."
+    },
+    "imagePath": "70_White_throat_(bird).jpg"
+  },
+  "Bradley Brook (water course)": {
+    "facts": [
+      {
+        "fact": "Bradley Brook is not endangered but is susceptible to pollution and climate change.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Bradley Brook supports a diverse ecosystem including fish, insects, and plants.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Bradley Brook is a stream located in the UK, serving as a habitat for a variety of aquatic and terrestrial species.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Keeping the Bradley Brook clean is essential. People should avoid littering and industries should properly treat their waste before disposal.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Rainfall",
+      "reason": "The flow and water level of Bradley Brook depends on the amount of rainfall."
+    },
+    "imagePath": "19_Bradley_Brook_(water_course).jpg"
+  },
+  "Rats": {
+    "facts": [
+      {
+        "fact": "Rats are considered pests in the UK, and their populations are controlled to prevent spread of diseases.",
+        "factGroup": "Conservation"
+      },
+      {
+        "fact": "Rats are omnivorous and eat a variety of foods, including grains, fruits, vegetables, and small insects.",
+        "factGroup": "Diet"
+      },
+      {
+        "fact": "Rats are highly adaptable and can live in a variety of environments, including urban areas, farms, and forests.",
+        "factGroup": "Habitat"
+      },
+      {
+        "fact": "Proper waste management and sealing potential entry points in buildings can help control rat populations.",
+        "factGroup": "Conservation Tip"
+      }
+    ],
+    "dependsOn": {
+      "item": "Humans",
+      "reason": "Rats rely heavily on human activity for their food supply and habitats, particularly in urban environments."
+    },
+    "imagePath": "1_Rats.jpg"
+  }
+}
