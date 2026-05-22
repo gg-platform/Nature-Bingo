@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Bingo Caller</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>🌿 Nature Bingo Caller</h1>
+            <div class="stats">
+                <span class="stat-item">
+                    <span class="stat-label">Called:</span>
+                    <span class="stat-value" id="calledCount">0</span>
+                </span>
+                <span class="stat-item">
+                    <span class="stat-label">Remaining:</span>
+                    <span class="stat-value" id="remainingCount">0</span>
+                </span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="current-item-container" id="currentItemContainer">
+                <div class="welcome-message">
+                    <div class="icon">🎲</div>
+                    <h2>Ready to Start!</h2>
+                    <p>Press "Call Next Item" to begin</p>
+                </div>
+            </div>
+
+            <div class="current-item-card" id="currentItemCard" style="display: none;">
+                <div class="item-number" id="itemNumber">#1</div>
+                <div class="item-image-container">
+                    <img id="itemImage" src="" alt="" class="item-image">
+                </div>
+                <div class="item-name" id="itemName"></div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-primary" id="callNextBtn">
+                    <span class="btn-icon">📢</span>
+                    Call Next Item
+                </button>
+                <button class="btn btn-secondary" id="resetBtn">
+                    <span class="btn-icon">🔄</span>
+                    Reset
+                </button>
+            </div>
+        </main>
+
+        <div class="called-items-section">
+            <div class="section-header">
+                <h3>Called Items</h3>
+                <button class="btn-icon-only" id="toggleCalledBtn" title="Toggle called items">
+                    <span id="toggleIcon">▼</span>
+                </button>
+            </div>
+            <div class="called-items-grid" id="calledItemsGrid"></div>
+        </div>
+
+        <footer class="app-footer">
+            <p>Nature Bingo Caller © 2026</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
