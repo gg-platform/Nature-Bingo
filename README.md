@@ -1,33 +1,56 @@
-# 🌿 Spotted on Site - Nature Bingo Caller
+# 🌿 Spotted on Site - Nature Bingo
 
-A mobile-optimized web app for calling nature bingo items spotted on site. Features a modern, clean interface with dark green theme inspired by Microsoft Fluent UI.
+A mobile-optimized web app for nature bingo with two modes: **Caller** for leading the game and **Player** for interactive bingo boards. Features a modern, clean interface with dark green theme inspired by Microsoft Fluent UI.
 
-🎮 **[Launch the App](https://gg-platform.github.io/Nature-Bingo/)**
+🎮 **[Launch the Caller](https://gg-platform.github.io/Nature-Bingo/)** | 🎯 **[Play Bingo](https://gg-platform.github.io/Nature-Bingo/player.html)**
 
 ---
 
 ## ✨ Features
 
+### Caller Mode
 - **75 Nature Items** - Comprehensive list of UK wildlife and nature items
-- **Mobile-First Design** - Optimized for phones, tablets, and desktops
-- **Adaptive Layout** - Controls adjust based on screen size and orientation
-- **No Repeats** - Each item called only once per session
+- **Random Selection** - No repeats in a session
 - **Visual Display** - Large images with item names
 - **Call History** - See all previously called items
 - **Keyboard Shortcuts** - Space/Enter to call next, R to reset
+- **Adaptive Layout** - Controls adjust based on screen size and orientation
+
+### Player Mode 🆕
+- **Interactive 5x5 Bingo Board** - Randomly generated from 75 items
+- **Tap to Mark** - Circle items when called, tap again to unmark
+- **Auto Bingo Detection** - Checks rows, columns, and diagonals
+- **Celebration Animation** - Fun confetti effect on winning
+- **New Board Generator** - Get a fresh board anytime
+- **No Session Required** - Fully standalone, no connection needed
+
+### Universal
+- **Mobile-First Design** - Optimized for phones, tablets, and desktops
 - **Progressive Web App** - Works offline, feels like a native app
+- **Responsive & Adaptive** - Perfect on any device or orientation
 
 ---
 
 ## 🚀 Usage
 
+### Caller Mode
 1. **Press "Call Next"** to reveal a random nature item
 2. **View the Image** and item name prominently displayed
 3. **Check Called Items** section at the bottom to see what's been called
 4. **Press Reset** to start a new session
+5. **Click 🎮** to switch to Player Mode
 
-### Keyboard Shortcuts
+#### Keyboard Shortcuts
 - `Space` or `Enter` - Call next item
+- `R` - Reset session
+
+### Player Mode
+1. **Get Your Board** - A random 5x5 board is generated on load
+2. **Mark Items** - Tap any cell to circle it when called
+3. **Unmark** - Tap a marked cell again to remove the circle
+4. **Win!** - Get 5 in a row, column, or diagonal for BINGO!
+5. **New Board** - Click 🔄 to generate a new random board
+6. **Back to Caller** - Click ← Caller to return
 - `R` - Reset session
 
 ---
